@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciar Usuários - FisioHub</title>
+  <link rel="stylesheet" href="gerenciamento.css" />
+</head>
+<body>
+  <header>
+    <h1>FisioHub</h1>
+    <nav>
+      <ul>
+        <li><a href="../adm-dashboard/dashboard.html">Dashboard</a></li>
+        <li><a href="../listagem-consultas/consultas.html">Consultas</a></li>
+        <li><a href="../relatorios/relatorios.html">Relatórios</a></li>
+        <li><button id="logoutBtn">Sair</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Gerenciamento de Usuários</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Perfil</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="userList">
+          <!-- Os usuários serão listados aqui via JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="gerenciamento.js"></script>
+</body>
+</html>

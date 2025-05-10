@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Paciente | FisioHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo" onclick="window.location.href='../home/index.html'">FisioHub</h1>
+    <nav>
+      <a href="../historico-paciente/historico.html">Histórico</a>
+      <a href="../agendamento/agendamento-paciente.html">Agendar Consulta</a>
+      <a href="../configuracoes-paciente/index.html">Configurações</a>
+      <a href="../login/index.html" class="sair">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bem-vindo">
+      <h2>Bem-vindo(a), Paciente!</h2>
+      <p>Aqui está o resumo das suas atividades.</p>
+    </section>
+
+    <section class="resumo">
+      <div class="card">
+        <h3>Consultas Futuras</h3>
+        <p id="consultasFuturas">...</p>
+      </div>
+      <div class="card">
+        <h3>Médicos Disponíveis</h3>
+        <p id="medicosDisponiveis">...</p>
+      </div>
+      <div class="card">
+        <h3>Consultas Realizadas</h3>
+        <p id="consultasRealizadas">...</p>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

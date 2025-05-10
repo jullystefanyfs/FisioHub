@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FisioHub | Relatórios</title>
+  <link rel="stylesheet" href="relatorios.css" />
+</head>
+<body>
+  <header>
+    <h1><a href="../adm-dashboard/dashboard.html">FisioHub</a></h1>
+    <nav>
+      <a href="../gerenciamento-usuarios/gerenciamento.html">Gerenciar Usuários</a>
+      <a href="../listagem-consultas/consultas.html">Consultas</a>
+      <a href="relatorios.html" class="active">Relatórios</a>
+      <a href="../login/login.html">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Relatórios do Sistema</h2>
+    <section class="relatorio-opcoes">
+      <button onclick="gerarRelatorio('consultas')">Consultas</button>
+      <button onclick="gerarRelatorio('usuarios')">Usuários</button>
+      <button onclick="gerarRelatorio('prontuarios')">Prontuários</button>
+    </section>
+    <section id="relatorio-resultado"></section>
+  </main>
+
+  <script src="relatorios.js"></script>
+</body>
+</html>

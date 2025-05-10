@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f6ff;
+    margin: 0;
+    padding: 0;
+    color: #003366;
+  }
+  
+  header {
+    background-color: #0055aa;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  #consultas-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .consulta {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+  
+  .consulta:last-child {
+    border-bottom: none;
+  }
+  

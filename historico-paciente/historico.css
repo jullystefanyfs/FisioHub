@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4faff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .historico-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-consultas {
+    margin-top: 1.5rem;
+  }
+  
+  .consulta {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .consulta:last-child {
+    border-bottom: none;
+  }
+  
+  .consulta h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+  }
+  

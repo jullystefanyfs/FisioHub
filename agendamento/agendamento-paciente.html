@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agendar Consulta - FisioHub</title>
+  <link rel="stylesheet" href="agendamento-paciente.css" />
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">FisioHub</a>
+    <nav>
+      <a href="../paciente-dashboard/index.html">Voltar à Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h1>Agendar Consulta</h1>
+      <form id="agendamentoForm">
+        <label for="medico">Escolha o Médico:</label>
+        <select id="medico" name="medico" required></select>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required />
+
+        <label for="horario">Horário:</label>
+        <select id="horario" name="horario" required></select>
+
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="agendamento-paciente.js"></script>
+</body>
+</html>
